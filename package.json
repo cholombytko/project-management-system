@@ -9,7 +9,7 @@
   "scripts": {
     "docs:dev": "npx vuepress dev docs",
     "docs:build": "npx vuepress build docs",
-    "publish": "publish.sh"
+    "publish": "./publish.sh"
   },
   "dependencies": {
     "@vuepress/plugin-back-to-top": "^1.7.1",
