@@ -11,6 +11,7 @@ footer: "ECL 2.0 Licensed | Copyright © [YYYY] [Your Name]"
 
 *студенти 2-го курсу, групи ІП-04*<span padding-right:5em></span> **
 
+САМЫЕ КРУТЫЕ СТУДЕНТЫ
 
 Кирило ЧОЛОМБИТЬКО [TELEGRAM](https://t.me/kcholombytko)
 
