@@ -114,7 +114,7 @@
   </tr>
   <tr>
     <td>Багатомовність<br>(Multilingualism)</td>
-    <td></td>
+    <td>🔴</td>
     <td></td>
     <td></td>
     <td></td>
