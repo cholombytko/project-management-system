@@ -32,7 +32,7 @@
   <tr>
     <td rowspan="8">Функціональні<br>(functional)</td>
     <td>Кросплатформеність<br>(Crossplatform)</td>
-    <td></td>
+    <td>🟢</td>
     <td></td>
     <td></td>
     <td></td>
