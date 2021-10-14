@@ -95,7 +95,7 @@
   </tr>
   <tr>
     <td>Командний чат<br>(Team chat)</td>
-    <td><🟢/td>
+    <td>🟢</td>
     <td></td>
     <td></td>
     <td></td>
