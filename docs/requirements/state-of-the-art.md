@@ -19,7 +19,7 @@
 <thead>
   <tr>
     <th>Вимоги до<br>системи<br>(System requirements)</th>
-    <th>Критерії</th>
+    <th>Критерії<br>(Standarts)</th>
     <th>Nifty</th>
     <th>Trello</th>
     <th>GitHub<br>Projects</th>
@@ -30,8 +30,8 @@
 </thead>
 <tbody>
   <tr>
-    <td rowspan="7">Функціональні(functional)</td>
-    <td>Кросплатформеність(Crossplatform)</td>
+    <td rowspan="7">Функціональні<br>(functional)</td>
+    <td>Кросплатформеність<br>(Crossplatform)</td>
     <td></td>
     <td></td>
     <td></td>
@@ -40,7 +40,7 @@
     <td></td>
   </tr>
   <tr>
-    <td>Наявність API(API availability)</td>
+    <td>Наявність API<br>(API availability)</td>
     <td></td>
     <td></td>
     <td></td>
@@ -49,7 +49,7 @@
     <td></td>
   </tr>
   <tr>
-    <td>Сповіщення(Notifications)</td>
+    <td>Сповіщення<br>(Notifications)</td>
     <td></td>
     <td></td>
     <td></td>
@@ -58,7 +58,7 @@
     <td></td>
   </tr>
   <tr>
-    <td>Дошка/Список завдань(To do table/list)</td>
+    <td>Дошка/Список завдань<br>(To do table/list)</td>
     <td></td>
     <td></td>
     <td></td>
@@ -67,7 +67,7 @@
     <td></td>
   </tr>
   <tr>
-    <td>Календар(Calendar(</td>
+    <td>Календар<br>(Calendar)</td>
     <td></td>
     <td></td>
     <td></td>
@@ -76,7 +76,7 @@
     <td></td>
   </tr>
   <tr>
-    <td>Створення команд(Team management)</td>
+    <td>Створення команд<br>(Team management)</td>
     <td></td>
     <td></td>
     <td></td>
@@ -85,7 +85,7 @@
     <td></td>
   </tr>
   <tr>
-    <td>Командний чат(Team chat)</td>
+    <td>Командний чат<br>(Team chat)</td>
     <td></td>
     <td></td>
     <td></td>
@@ -94,8 +94,8 @@
     <td></td>
   </tr>
   <tr>
-    <td rowspan="4">До зручності</td>
-    <td>Наявність FAQ/Офіційного туторіалу</td>
+    <td rowspan="4">Зручність<br>(Convenience)</td>
+    <td>Наявність FAQ/Офіційного туторіалу<br>(FAQ availability/Official tutorial)</td>
     <td></td>
     <td></td>
     <td></td>
@@ -104,7 +104,7 @@
     <td></td>
   </tr>
   <tr>
-    <td>Багатомовність(Multilingualism )</td>
+    <td>Багатомовність<br>(Multilingualism)</td>
     <td></td>
     <td></td>
     <td></td>
@@ -131,7 +131,7 @@
     <td></td>
   </tr>
   <tr>
-    <td rowspan="2">До надійності</td>
+    <td rowspan="2">Надійність<br>(Reliability)</td>
     <td>Протокол шифрування<br>(Encryption protocol)</td>
     <td></td>
     <td></td>
@@ -150,7 +150,7 @@
     <td></td>
   </tr>
   <tr>
-    <td rowspan="2">До продуктивності</td>
+    <td rowspan="2">Продуктивність<br>(Productivity)</td>
     <td>Швидке виконання запиту<br>(Fast request)</td>
     <td></td>
     <td></td>
@@ -169,8 +169,8 @@
     <td></td>
   </tr>
   <tr>
-    <td>До підтримки</td>
-    <td>Своєчасне оновлення</td>
+    <td>Підтримка<br>(Support)</td>
+    <td>Своєчасне оновлення<br>(timely update)</td>
     <td></td>
     <td></td>
     <td></td>
