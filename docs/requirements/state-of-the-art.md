@@ -15,15 +15,171 @@
 
 ## Порівняльна характеристика існуючих засобів вирішення завдання
 
-*[Розділ містить опис існуючих програм, інформаційних систем, сервісів, тощо, призначених для вирішення 
-завдання. Дається порівняльна характеристика властивостей FURPS:*
-- *Functionality (функциональні вимоги)*
-- *Usability (вимоги до зручності роботи)*
-- *Reliability (вимоги до надійності)*
-- *Performance (вимоги до продуктивності)*
-- *Supportability (вимоги до підтримки)*
-
- *(у вигляді таблиці).]*
+<table>
+<thead>
+  <tr>
+    <th>Вимоги до<br>системи<br>(System requirements)</th>
+    <th>Критерії</th>
+    <th>Nifty</th>
+    <th>Trello</th>
+    <th>GitHub<br>Projects</th>
+    <th>Basecamp</th>
+    <th>Asana</th>
+    <th>Backloh</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td rowspan="7">Функціональні(functional)</td>
+    <td>Кросплатформеність(Crossplatform)</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Наявність API(API availability)</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Сповіщення(Notifications)</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Дошка/Список завдань(To do table/list)</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Календар(Calendar(</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Створення команд(Team management)</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Командний чат(Team chat)</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="4">До зручності</td>
+    <td>Наявність FAQ/Офіційного туторіалу</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Багатомовність(Multilingualism )</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Інтеграція з GitHub<br>(GitHub integration)</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="2">До надійності</td>
+    <td>Протокол шифрування<br>(Encryption protocol)</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+  	<td>Резервне копіювання<br>(Backup)</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="2">До продуктивності</td>
+    <td>Швидке виконання запиту<br>(Fast request)</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+  	<td>Миттєва синхронізація<br>(JIT-synchronization)</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>До підтримки</td>
+    <td>Своєчасне оновлення</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</tbody>
+</table>
 
 ## Висновки
 
