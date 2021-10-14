@@ -113,15 +113,6 @@
     <td></td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
     <td>Інтеграція з GitHub<br>(GitHub integration)</td>
     <td></td>
     <td></td>
@@ -170,7 +161,7 @@
   </tr>
   <tr>
     <td>Підтримка<br>(Support)</td>
-    <td>Своєчасне оновлення<br>(timely update)</td>
+    <td>Своєчасне оновлення<br>(Timely update)</td>
     <td></td>
     <td></td>
     <td></td>
