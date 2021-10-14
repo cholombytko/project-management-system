@@ -105,7 +105,7 @@
   <tr>
     <td rowspan="3">Зручність<br>(Convenience)</td>
     <td>Наявність FAQ/Офіційного туторіалу<br>(FAQ availability/Official tutorial)</td>
-    <td></td>
+    <td>🟢</td>
     <td></td>
     <td></td>
     <td></td>
@@ -114,7 +114,7 @@
   </tr>
   <tr>
     <td>Багатомовність<br>(Multilingualism)</td>
-    <td></td>
+    <td>🔴</td>
     <td></td>
     <td></td>
     <td></td>
@@ -123,7 +123,7 @@
   </tr>
   <tr>
     <td>Інтеграція з GitHub<br>(GitHub integration)</td>
-    <td></td>
+    <td>🟢</td>
     <td></td>
     <td></td>
     <td></td>
@@ -133,7 +133,7 @@
   <tr>
     <td rowspan="2">Надійність<br>(Reliability)</td>
     <td>Протокол шифрування<br>(Encryption protocol)</td>
-    <td></td>
+    <td>TSL</td>
     <td></td>
     <td></td>
     <td></td>
@@ -142,7 +142,7 @@
   </tr>
   <tr>
   	<td>Резервне копіювання<br>(Backup)</td>
-    <td></td>
+    <td>🔴</td>
     <td></td>
     <td></td>
     <td></td>
@@ -152,7 +152,7 @@
   <tr>
     <td rowspan="2">Продуктивність<br>(Productivity)</td>
     <td>Швидке виконання запиту<br>(Fast request)</td>
-    <td></td>
+    <td>🟢</td>
     <td></td>
     <td></td>
     <td></td>
@@ -161,7 +161,7 @@
   </tr>
   <tr>
   	<td>Миттєва синхронізація<br>(JIT-synchronization)</td>
-    <td></td>
+    <td>🟢</td>
     <td></td>
     <td></td>
     <td></td>
@@ -171,7 +171,7 @@
   <tr>
     <td>Підтримка<br>(Support)</td>
     <td>Своєчасне оновлення<br>(Timely update)</td>
-    <td></td>
+    <td>🟢</td>
     <td></td>
     <td></td>
     <td></td>
