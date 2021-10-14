@@ -25,7 +25,7 @@
     <th>GitHub<br>Projects</th>
     <th>Basecamp</th>
     <th>Asana</th>
-    <th>Backloh</th>
+    <th>Backlog</th>
   </tr>
 </thead>
 <tbody>
@@ -94,7 +94,7 @@
     <td></td>
   </tr>
   <tr>
-    <td rowspan="4">Зручність<br>(Convenience)</td>
+    <td rowspan="3">Зручність<br>(Convenience)</td>
     <td>Наявність FAQ/Офіційного туторіалу<br>(FAQ availability/Official tutorial)</td>
     <td></td>
     <td></td>
@@ -105,15 +105,6 @@
   </tr>
   <tr>
     <td>Багатомовність<br>(Multilingualism)</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
     <td></td>
     <td></td>
     <td></td>
