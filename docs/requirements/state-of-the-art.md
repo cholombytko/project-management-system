@@ -32,7 +32,7 @@
   <tr>
     <td rowspan="8">Функціональні<br>(functional)</td>
     <td>Кросплатформеність<br>(Crossplatform)</td>
-    <td></td>
+    <td>🟢</td>
     <td></td>
     <td></td>
     <td></td>
@@ -41,7 +41,7 @@
   </tr>
   <tr>
     <td>Доступність/Вартість<br>(Availability/Cost)</td>
-    <td></td>
+    <td>🟢</td>
     <td></td>
     <td></td>
     <td></td>
@@ -50,7 +50,7 @@
   </tr>
   <tr>
     <td>Наявність API<br>(API availability)</td>
-    <td></td>
+    <td>🟢</td>
     <td></td>
     <td></td>
     <td></td>
@@ -59,7 +59,7 @@
   </tr>
   <tr>
     <td>Сповіщення<br>(Notifications)</td>
-    <td></td>
+    <td>🟢</td>
     <td></td>
     <td></td>
     <td></td>
@@ -68,7 +68,7 @@
   </tr>
   <tr>
     <td>Дошка/Список завдань<br>(To do table/list)</td>
-    <td></td>
+    <td>🟢</td>
     <td></td>
     <td></td>
     <td></td>
@@ -77,7 +77,7 @@
   </tr>
   <tr>
     <td>Календар<br>(Calendar)</td>
-    <td></td>
+    <td>🟢</td>
     <td></td>
     <td></td>
     <td></td>
@@ -86,7 +86,7 @@
   </tr>
   <tr>
     <td>Створення команд<br>(Team management)</td>
-    <td></td>
+    <td>🟢</td>
     <td></td>
     <td></td>
     <td></td>
@@ -95,7 +95,7 @@
   </tr>
   <tr>
     <td>Командний чат<br>(Team chat)</td>
-    <td></td>
+    <td>🟢</td>
     <td></td>
     <td></td>
     <td></td>
