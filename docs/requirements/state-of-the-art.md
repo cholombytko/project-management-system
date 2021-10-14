@@ -30,8 +30,17 @@
 </thead>
 <tbody>
   <tr>
-    <td rowspan="7">Функціональні<br>(functional)</td>
+    <td rowspan="8">Функціональні<br>(functional)</td>
     <td>Кросплатформеність<br>(Crossplatform)</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Доступність/Вартість<br>(Availability/Cost)</td>
     <td></td>
     <td></td>
     <td></td>
