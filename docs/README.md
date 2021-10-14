@@ -11,11 +11,19 @@ footer: "ECL 2.0 Licensed | Copyright © [YYYY] [Your Name]"
 
 *студенти 2-го курсу, групи ІП-04*<span padding-right:5em></span> **
 
+САМЫЕ КРУТЫЕ СТУДЕНТЫ
 
-Кирило ЧОЛОМБИТЬКО [tg](https://t.me/kcholombytko) [Посилання email, tg, fb]**
+Кирило ЧОЛОМБИТЬКО [TELEGRAM](https://t.me/kcholombytko)
 
-Никита ГРИЩАК
+Никита ГРИЩАК [TELEGRAM](https://t.me/holdennekt)
 
+Владислав КРАВЧЕНКО [TELEGRAM](https://t.me/ne_vlad_ip_04)
+
+Михайло ЛУКЬЯНЕНКО  [TELEGRAM](https://t.me/lukianenko78)
+
+Богдан ПІНЧУК [TELEGRAM](https://t.me/PavukBogdan)
+
+Олег ШКУРЕНКО [TELEGRAM](https://t.me/nocommas555)
 
 **Керівник**
 
