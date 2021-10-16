@@ -107,7 +107,7 @@
     <td>Наявність FAQ/Офіційного туторіалу<br>(FAQ availability/Official tutorial)</td>
     <td>🟢</td>
     <td></td>
-    <td>🔴</td>
+    <td></td>
     <td></td>
     <td>🟢</td>
     <td></td>
