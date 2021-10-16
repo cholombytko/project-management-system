@@ -33,13 +33,10 @@
     <td rowspan="8">Функціональні<br>(functional)</td>
     <td>Кросплатформеність<br>(Crossplatform)</td>
     <td>🟢</td>
-<<<<<<< HEAD
     <td>🟢</td>
     <td></td>
-=======
     <td></td>
     <td>🟢</td>
->>>>>>> 185b499fae1b786903fe7ac4fe92e65cb465118c
     <td></td>
     <td>🟢</td>
     <td></td>
@@ -47,13 +44,10 @@
   <tr>
     <td>Доступність/Вартість<br>(Availability/Cost)</td>
     <td>🟢</td>
-<<<<<<< HEAD
     <td>🟢</td>
     <td></td>
-=======
     <td></td>
     <td>🟢</td>
->>>>>>> 185b499fae1b786903fe7ac4fe92e65cb465118c
     <td></td>
     <td>trial 30 days(11$/month)</td>
     <td></td>
@@ -61,13 +55,10 @@
   <tr>
     <td>Наявність API<br>(API availability)</td>
     <td>🟢</td>
-<<<<<<< HEAD
     <td>🟢</td>
     <td></td>
-=======
     <td></td>
     <td>🟢</td>
->>>>>>> 185b499fae1b786903fe7ac4fe92e65cb465118c
     <td></td>
     <td>🟢</td>
     <td></td>
@@ -75,13 +66,10 @@
   <tr>
     <td>Сповіщення<br>(Notifications)</td>
     <td>🟢</td>
-<<<<<<< HEAD
     <td>🟢</td>
     <td></td>
-=======
     <td></td>
     <td>🟢</td>
->>>>>>> 185b499fae1b786903fe7ac4fe92e65cb465118c
     <td></td>
     <td>🟢</td>
     <td></td>
@@ -89,13 +77,10 @@
   <tr>
     <td>Дошка/Список завдань<br>(To do table/list)</td>
     <td>🟢</td>
-<<<<<<< HEAD
     <td>🟢</td>
     <td></td>
-=======
     <td></td>
     <td>🟢</td>
->>>>>>> 185b499fae1b786903fe7ac4fe92e65cb465118c
     <td></td>
     <td>🟢</td>
     <td></td>
@@ -103,13 +88,10 @@
   <tr>
     <td>Календар<br>(Calendar)</td>
     <td>🟢</td>
-<<<<<<< HEAD
     <td>🟡 trial 14 days (10$/month)</td>
     <td></td>
-=======
     <td></td>
     <td>🔴</td>
->>>>>>> 185b499fae1b786903fe7ac4fe92e65cb465118c
     <td></td>
     <td>🟢</td>
     <td></td>
@@ -117,13 +99,10 @@
   <tr>
     <td>Створення команд<br>(Team management)</td>
     <td>🟢</td>
-<<<<<<< HEAD
     <td>🟢</td>
     <td></td>
-=======
     <td></td>
     <td>🟢</td>
->>>>>>> 185b499fae1b786903fe7ac4fe92e65cb465118c
     <td></td>
     <td>🟢</td>
     <td></td>
@@ -131,13 +110,10 @@
   <tr>
     <td>Командний чат<br>(Team chat)</td>
     <td>🟢</td>
-<<<<<<< HEAD
     <td>🔴</td>
     <td></td>
-=======
     <td></td>
     <td>🟡</td>
->>>>>>> 185b499fae1b786903fe7ac4fe92e65cb465118c
     <td></td>
     <td>🟡</td>
     <td></td>
@@ -146,13 +122,10 @@
     <td rowspan="3">Зручність<br>(Convenience)</td>
     <td>Наявність FAQ/Офіційного туторіалу<br>(FAQ availability/Official tutorial)</td>
     <td>🟢</td>
-<<<<<<< HEAD
     <td>🟢</td>
     <td></td>
-=======
     <td></td>
     <td>🟢</td>
->>>>>>> 185b499fae1b786903fe7ac4fe92e65cb465118c
     <td></td>
     <td>🟢</td>
     <td></td>
@@ -160,13 +133,10 @@
   <tr>
     <td>Багатомовність<br>(Multilingualism)</td>
     <td>🔴</td>
-<<<<<<< HEAD
     <td>🟢</td>
     <td></td>
-=======
     <td></td>
     <td>🔴</td>
->>>>>>> 185b499fae1b786903fe7ac4fe92e65cb465118c
     <td></td>
     <td>🔴</td>
     <td></td>
@@ -174,13 +144,10 @@
   <tr>
     <td>Інтеграція з GitHub<br>(GitHub integration)</td>
     <td>🟢</td>
-<<<<<<< HEAD
     <td>🟢</td>
     <td></td>
-=======
     <td></td>
     <td>🟢</td>
->>>>>>> 185b499fae1b786903fe7ac4fe92e65cb465118c
     <td></td>
     <td>🟢</td>
     <td></td>
@@ -188,15 +155,12 @@
   <tr>
     <td rowspan="2">Надійність<br>(Reliability)</td>
     <td>Протокол шифрування<br>(Encryption protocol)</td>
-<<<<<<< HEAD
     <td>TLS</td>
     <td>TLS</td>
     <td></td>
-=======
     <td>TSL</td>
     <td></td>
     <td>TSL/SSL</td>
->>>>>>> 185b499fae1b786903fe7ac4fe92e65cb465118c
     <td></td>
     <td>SSL</td>
     <td></td>
@@ -204,13 +168,10 @@
   <tr>
   	<td>Резервне копіювання<br>(Backup)</td>
     <td>🔴</td>
-<<<<<<< HEAD
     <td>🟢</td>
     <td></td>
-=======
     <td></td>
     <td>🟢</td>
->>>>>>> 185b499fae1b786903fe7ac4fe92e65cb465118c
     <td></td>
     <td>🟡</td>
     <td></td>
@@ -219,13 +180,10 @@
     <td rowspan="2">Продуктивність<br>(Productivity)</td>
     <td>Швидке виконання запиту<br>(Fast request)</td>
     <td>🟢</td>
-<<<<<<< HEAD
     <td>🟢</td>
     <td></td>
-=======
     <td></td>
     <td>🟢</td>
->>>>>>> 185b499fae1b786903fe7ac4fe92e65cb465118c
     <td></td>
     <td>🟢</td>
     <td></td>
@@ -233,13 +191,10 @@
   <tr>
   	<td>Миттєва синхронізація<br>(JIT-synchronization)</td>
     <td>🟢</td>
-<<<<<<< HEAD
     <td>🟢</td>
     <td></td>
-=======
     <td></td>
     <td>🟢</td>
->>>>>>> 185b499fae1b786903fe7ac4fe92e65cb465118c
     <td></td>
     <td>🟢</td>
     <td></td>
@@ -248,13 +203,10 @@
     <td>Підтримка<br>(Support)</td>
     <td>Своєчасне оновлення<br>(Timely update)</td>
     <td>🟢</td>
-<<<<<<< HEAD
     <td>🟢</td>
     <td></td>
-=======
     <td></td>
     <td>🟡</td>
->>>>>>> 185b499fae1b786903fe7ac4fe92e65cb465118c
     <td></td>
     <td>🟢</td>
     <td></td>
