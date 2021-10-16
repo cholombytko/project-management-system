@@ -34,7 +34,7 @@
     <td>Кросплатформеність<br>(Crossplatform)</td>
     <td>🟢</td>
     <td>🟢</td>
-    <td>🟢</td>
+    <td></td>
     <td></td>
     <td>🟢</td>
     <td></td>
@@ -43,7 +43,7 @@
     <td>Доступність/Вартість<br>(Availability/Cost)</td>
     <td>🟢</td>
     <td>🟢</td>
-    <td>🟢</td>
+    <td></td>
     <td></td>
     <td>trial 30 days(11$/month)</td>
     <td></td>
@@ -52,7 +52,7 @@
     <td>Наявність API<br>(API availability)</td>
     <td>🟢</td>
     <td>🟢</td>
-    <td>🟢</td>
+    <td></td>
     <td></td>
     <td>🟢</td>
     <td></td>
@@ -61,7 +61,7 @@
     <td>Сповіщення<br>(Notifications)</td>
     <td>🟢</td>
     <td>🟢</td>
-    <td>🟢</td>
+    <td></td>
     <td></td>
     <td>🟢</td>
     <td></td>
@@ -70,7 +70,7 @@
     <td>Дошка/Список завдань<br>(To do table/list)</td>
     <td>🟢</td>
     <td>🟢</td>
-    <td>🟢</td>
+    <td></td>
     <td></td>
     <td>🟢</td>
     <td></td>
@@ -79,7 +79,7 @@
     <td>Календар<br>(Calendar)</td>
     <td>🟢</td>
     <td>🟡 trial 14 days (10$/month)</td>
-    <td>🔴</td>
+    <td></td>
     <td></td>
     <td>🟢</td>
     <td></td>
@@ -88,7 +88,7 @@
     <td>Створення команд<br>(Team management)</td>
     <td>🟢</td>
     <td>🟢</td>
-    <td>🟢</td>
+    <td></td>
     <td></td>
     <td>🟢</td>
     <td></td>
@@ -97,7 +97,7 @@
     <td>Командний чат<br>(Team chat)</td>
     <td>🟢</td>
     <td>🔴</td>
-    <td>🟡</td>
+    <td></td>
     <td></td>
     <td>🟡</td>
     <td></td>
@@ -107,7 +107,7 @@
     <td>Наявність FAQ/Офіційного туторіалу<br>(FAQ availability/Official tutorial)</td>
     <td>🟢</td>
     <td>🟢</td>
-    <td>🟢</td>
+    <td></td>
     <td></td>
     <td>🟢</td>
     <td></td>
@@ -116,7 +116,7 @@
     <td>Багатомовність<br>(Multilingualism)</td>
     <td>🔴</td>
     <td>🟢</td>
-    <td>🔴</td>
+    <td></td>
     <td></td>
     <td>🔴</td>
     <td></td>
@@ -125,7 +125,7 @@
     <td>Інтеграція з GitHub<br>(GitHub integration)</td>
     <td>🟢</td>
     <td>🟢</td>
-    <td>🟢</td>
+    <td></td>
     <td></td>
     <td>🟢</td>
     <td></td>
@@ -135,7 +135,7 @@
     <td>Протокол шифрування<br>(Encryption protocol)</td>
     <td>TLS</td>
     <td>TLS</td>
-    <td>TLS/SSL</td>
+    <td></td>
     <td></td>
     <td>SSL</td>
     <td></td>
@@ -144,7 +144,7 @@
   	<td>Резервне копіювання<br>(Backup)</td>
     <td>🔴</td>
     <td>🟢</td>
-    <td>🟢</td>
+    <td></td>
     <td></td>
     <td>🟡</td>
     <td></td>
@@ -154,7 +154,7 @@
     <td>Швидке виконання запиту<br>(Fast request)</td>
     <td>🟢</td>
     <td>🟢</td>
-    <td>🟢</td>
+    <td></td>
     <td></td>
     <td>🟢</td>
     <td></td>
@@ -163,7 +163,7 @@
   	<td>Миттєва синхронізація<br>(JIT-synchronization)</td>
     <td>🟢</td>
     <td>🟢</td>
-    <td>🟢</td>
+    <td></td>
     <td></td>
     <td>🟢</td>
     <td></td>
@@ -173,7 +173,7 @@
     <td>Своєчасне оновлення<br>(Timely update)</td>
     <td>🟢</td>
     <td>🟢</td>
-    <td>🟡</td>
+    <td></td>
     <td></td>
     <td>🟢</td>
     <td></td>
