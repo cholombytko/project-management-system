@@ -135,12 +135,9 @@
     <td>Протокол шифрування<br>(Encryption protocol)</td>
     <td>TLS</td>
     <td>TLS</td>
+    <td>TLS</td>
     <td></td>
-    <td>TSL</td>
-    <td></td>
-    <td>TSL/SSL</td>
-    <td></td>
-    <td>SSL</td>
+    <td>TLS/SSL</td>
     <td></td>
   </tr>
   <tr>
