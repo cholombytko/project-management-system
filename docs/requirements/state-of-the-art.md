@@ -73,7 +73,7 @@
     <td>🟢</td>
     <td>🟢</td>
     <td>🟢</td>
-    <td></td>
+    <td>🟢</td>
     <td>🟢</td>
     <td>🟢</td>
   </tr>
@@ -82,7 +82,7 @@
     <td>🟢</td>
     <td>trial 14 days (10$/month)</td>
     <td>🟢</td>
-    <td></td>
+    <td>trial 30 days (99$/month)</td>
     <td>trial 30 days(11$/month)</td>
     <td>🟢</td>
   </tr>
@@ -91,7 +91,7 @@
     <td>🟢</td>
     <td>🟢</td>
     <td>🟢</td>
-    <td></td>
+    <td>🟢</td>
     <td>🟢</td>
     <td>🟢</td>
   </tr>
@@ -100,7 +100,7 @@
     <td>🟢</td>
     <td>🟢</td>
     <td>🟢</td>
-    <td></td>
+    <td>🟢</td>
     <td>🟢</td>
     <td>🟢</td>
   </tr>
@@ -109,7 +109,7 @@
     <td>🟢</td>
     <td>🟢</td>
     <td>🟢</td>
-    <td></td>
+    <td>🟢</td>
     <td>🟢</td>
     <td>🟢</td>
   </tr>
@@ -118,7 +118,7 @@
     <td>🟢</td>
     <td>🟡</td>
     <td>🔴</td>
-    <td></td>
+    <td>🟢</td>
     <td>🟢</td>
     <td>🟢</td>
   </tr>
@@ -127,7 +127,7 @@
     <td>🟢</td>
     <td>🟢</td>
     <td>🟢</td>
-    <td></td>
+    <td>🟢</td>
     <td>🟢</td>
     <td>🟢</td>
   </tr>
@@ -136,7 +136,7 @@
     <td>🟢</td>
     <td>🔴</td>
     <td>🟡</td>
-    <td></td>
+    <td>🟡</td>
     <td>🟡</td>
     <td>🟢</td>
   </tr>
@@ -146,7 +146,7 @@
     <td>🟢</td>
     <td>🟢</td>
     <td>🟢</td>
-    <td></td>
+    <td>🟢</td>
     <td>🟢</td>
     <td>🟡 (не інтуітивний інтерфейс)</td>
   </tr>
@@ -155,7 +155,7 @@
     <td>🔴</td>
     <td>🟢</td>
     <td>🔴</td>
-    <td></td>
+    <td>🔴</td>
     <td>🔴</td>
     <td>🔴</td>
   </tr>
@@ -164,7 +164,7 @@
     <td>🟢</td>
     <td>🟢</td>
     <td>🟢</td>
-    <td></td>
+    <td>🔴</td>
     <td>🟢</td>
     <td>🟢</td>
   </tr>
@@ -174,7 +174,7 @@
     <td>TLS</td>
     <td>TLS</td>
     <td>TLS</td>
-    <td></td>
+    <td>TLS</td>
     <td>SSL</td>
     <td>TLS</td>
   </tr>
@@ -183,7 +183,7 @@
     <td>🔴</td>
     <td>🟢</td>
     <td>🟢</td>
-    <td></td>
+    <td>🟢</td>
     <td>🟡</td>
     <td>🟢</td>
   </tr>
@@ -193,7 +193,7 @@
     <td>🟢</td>
     <td>🟢</td>
     <td>🟢</td>
-    <td></td>
+    <td>🟢</td>
     <td>🟢</td>
     <td>🟢</td>
   </tr>
@@ -202,7 +202,7 @@
     <td>🟢</td>
     <td>🟢</td>
     <td>🟢</td>
-    <td></td>
+    <td>🟢</td>
     <td>🟢</td>
     <td>🟢</td>
   </tr>
@@ -212,7 +212,7 @@
     <td>🟢</td>
     <td>🟢</td>
     <td>🟡</td>
-    <td></td>
+    <td>🟢</td>
     <td>🟢</td>
     <td>🟡</td>
   </tr>
