@@ -71,7 +71,7 @@
 </thead>
 <tbody>
   <tr>
-    <td rowspan="4">Способи відображення<br> завдань</td>
+    <td rowspan="4">Способи відображення<br>завдань</td>
     <td>Дошка/Список завдань</td>
     <td>🟢</td>
     <td>🟢</td>
@@ -126,10 +126,10 @@
     <td>Доступність/Вартість<br>(Availability/Cost)</td>
     <td>🟢</td>
     <td>🟢</td>
-    <td>trial 14 days (10$/month)</td>
+    <td>trial 14d<br>(10$/month)</td>
     <td>🟢</td>
-    <td>trial 30 days (99$/month)</td>
-    <td>trial 30 days(11$/month)</td>
+    <td>trial 30d<br>(99$/month)</td>
+    <td>trial 30d<br>(11$/month)</td>
     <td>🟢</td>
   </tr>
   <tr>
@@ -182,7 +182,7 @@
     <td>🟢</td>
     <td>🟢</td>
     <td>🟢</td>
-    <td>🟡 (не інтуітивний інтерфейс)</td>
+    <td>🟡</td>
   </tr>
   <tr>
     <td>Багатомовність<br>(Multilingualism)</td>
