@@ -71,8 +71,13 @@
 </thead>
 <tbody>
   <tr>
+<<<<<<< HEAD
     <td rowspan="4">Способи відображення<br>завдань</td>
     <td>Дошка/Список завдань</td>
+=======
+    <td rowspan="4">Способи відображення<br> завдань</td>
+    <td>Дошка/Список завдань<br>(To do table/list)</td>
+>>>>>>> a308b49a844eddd6db3998ad8a54365dea2603aa
     <td>🟢</td>
     <td>🟢</td>
     <td>🟢</td>
@@ -92,7 +97,7 @@
     <td>🟢</td>
   </tr>
   <tr>
-    <td>Артефактами</td>
+    <td>Артефактами<br>(Artefacts)</td>
     <td>🟢</td>
     <td>🔴</td>
     <td>🔴</td>
@@ -102,7 +107,7 @@
     <td>🔴</td>
   </tr>
   <tr>
-    <td>З точки зору<br>колаборатора</td>
+    <td>З точки зору<br>колаборатора<br>(Collaborator based)</td>
     <td>🟢</td>
     <td>🔴</td>
     <td>🔴</td>
