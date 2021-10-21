@@ -60,7 +60,7 @@
   <tr>
     <th>Вимоги до<br>системи<br>(System requirements)</th>
     <th>Критерії<br>(Standarts)</th>
-    <th>Наш проект</th>
+    <th>Cringello</th>
     <th>Nifty</th>
     <th>Trello</th>
     <th>GitHub<br>Projects</th>
