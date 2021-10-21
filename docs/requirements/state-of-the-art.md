@@ -126,10 +126,10 @@
     <td>Доступність/Вартість<br>(Availability/Cost)</td>
     <td>🟢</td>
     <td>🟢</td>
-    <td>trial 14d<br>(10$/month)</td>
+    <td>trial 14d<br>(10$/m)</td>
     <td>🟢</td>
-    <td>trial 30d<br>(99$/month)</td>
-    <td>trial 30d<br>(11$/month)</td>
+    <td>trial 30d<br>(99$/m)</td>
+    <td>trial 30d<br>(11$/m)</td>
     <td>🟢</td>
   </tr>
   <tr>
