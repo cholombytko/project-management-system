@@ -71,49 +71,9 @@
 </thead>
 <tbody>
   <tr>
-    <td rowspan="8">Функціональні<br>(functional)</td>
-    <td>Кросплатформеність<br>(Crossplatform)</td>
-    <td></td>
+    <td rowspan="4">Способи відображення<br> завдань</td>
+    <td>Дошка/Список завдань</td>
     <td>🟢</td>
-    <td>🟢</td>
-    <td>🟢</td>
-    <td>🟢</td>
-    <td>🟢</td>
-    <td>🟢</td>
-  </tr>
-  <tr>
-    <td>Доступність/Вартість<br>(Availability/Cost)</td>
-    <td></td>
-    <td>🟢</td>
-    <td>trial 14 days (10$/month)</td>
-    <td>🟢</td>
-    <td>trial 30 days (99$/month)</td>
-    <td>trial 30 days(11$/month)</td>
-    <td>🟢</td>
-  </tr>
-  <tr>
-    <td>Наявність API<br>(API availability)</td>
-    <td></td>
-    <td>🟢</td>
-    <td>🟢</td>
-    <td>🟢</td>
-    <td>🟢</td>
-    <td>🟢</td>
-    <td>🟢</td>
-  </tr>
-  <tr>
-    <td>Сповіщення<br>(Notifications)</td>
-    <td></td>
-    <td>🟢</td>
-    <td>🟢</td>
-    <td>🟢</td>
-    <td>🟢</td>
-    <td>🟢</td>
-    <td>🟢</td>
-  </tr>
-  <tr>
-    <td>Дошка/Список завдань<br>(To do table/list)</td>
-    <td></td>
     <td>🟢</td>
     <td>🟢</td>
     <td>🟢</td>
@@ -123,7 +83,7 @@
   </tr>
   <tr>
     <td>Календар<br>(Calendar)</td>
-    <td></td>
+    <td>🟢</td>
     <td>🟢</td>
     <td>🟡</td>
     <td>🔴</td>
@@ -132,8 +92,70 @@
     <td>🟢</td>
   </tr>
   <tr>
-    <td>Створення команд<br>(Team management)</td>
-    <td></td>
+    <td>Артефактами</td>
+    <td>🟢</td>
+    <td>🔴</td>
+    <td>🔴</td>
+    <td>🔴</td>
+    <td>🔴</td>
+    <td>🔴</td>
+    <td>🔴</td>
+  </tr>
+  <tr>
+    <td>З точки зору<br>колаборатора</td>
+    <td>🟢</td>
+    <td>🔴</td>
+    <td>🔴</td>
+    <td>🔴</td>
+    <td>🔴</td>
+    <td>🔴</td>
+    <td>🔴</td>
+  </tr>
+  <tr>
+    <td rowspan="6">Функціональні<br>(functional)</td>
+    <td>Кросплатформеність<br>(Crossplatform)</td>
+    <td>🟢</td>
+    <td>🟢</td>
+    <td>🟢</td>
+    <td>🟢</td>
+    <td>🟢</td>
+    <td>🟢</td>
+    <td>🟢</td>
+  </tr>
+  <tr>
+    <td>Доступність/Вартість<br>(Availability/Cost)</td>
+    <td>🟢</td>
+    <td>🟢</td>
+    <td>trial 14 days (10$/month)</td>
+    <td>🟢</td>
+    <td>trial 30 days (99$/month)</td>
+    <td>trial 30 days(11$/month)</td>
+    <td>🟢</td>
+  </tr>
+  <tr>
+    <td>Наявність API<br>(API availability)</td>
+    <td>🔴</td>
+    <td>🟢</td>
+    <td>🟢</td>
+    <td>🟢</td>
+    <td>🟢</td>
+    <td>🟢</td>
+    <td>🟢</td>
+  </tr>
+  <tr>
+    <td>Сповіщення<br>(Notifications)</td>
+    <td>🔴</td>
+    <td>🟢</td>
+    <td>🟢</td>
+    <td>🟢</td>
+    <td>🟢</td>
+    <td>🟢</td>
+    <td>🟢</td>
+  </tr>
+
+  <tr>
+    <td>Управління командою<br>(Team management)</td>
+    <td>🟢</td>
     <td>🟢</td>
     <td>🟢</td>
     <td>🟢</td>
@@ -143,7 +165,7 @@
   </tr>
   <tr>
     <td>Командний чат<br>(Team chat)</td>
-    <td></td>
+    <td>🟡</td>
     <td>🟢</td>
     <td>🔴</td>
     <td>🟡</td>
@@ -154,7 +176,7 @@
   <tr>
     <td rowspan="3">Зручність<br>(Convenience)</td>
     <td>Наявність FAQ/Офіційного туторіалу<br>(FAQ availability/Official tutorial)</td>
-    <td></td>
+    <td>🟢</td>
     <td>🟢</td>
     <td>🟢</td>
     <td>🟢</td>
@@ -164,7 +186,7 @@
   </tr>
   <tr>
     <td>Багатомовність<br>(Multilingualism)</td>
-    <td></td>
+    <td>🔴</td>
     <td>🔴</td>
     <td>🟢</td>
     <td>🔴</td>
@@ -174,7 +196,7 @@
   </tr>
   <tr>
     <td>Інтеграція з GitHub<br>(GitHub integration)</td>
-    <td></td>
+    <td>🟡</td>
     <td>🟢</td>
     <td>🟢</td>
     <td>🟢</td>
@@ -185,7 +207,7 @@
   <tr>
     <td rowspan="2">Надійність<br>(Reliability)</td>
     <td>Протокол шифрування<br>(Encryption protocol)</td>
-    <td></td>
+    <td>TLS</td>
     <td>TLS</td>
     <td>TLS</td>
     <td>TLS</td>
@@ -195,7 +217,7 @@
   </tr>
   <tr>
   	<td>Резервне копіювання<br>(Backup)</td>
-    <td></td>
+    <td>🟢</td>
     <td>🔴</td>
     <td>🟢</td>
     <td>🟢</td>
@@ -206,7 +228,7 @@
   <tr>
     <td rowspan="2">Продуктивність<br>(Productivity)</td>
     <td>Швидке виконання запиту<br>(Fast request)</td>
-    <td></td>
+    <td>🟡</td>
     <td>🟢</td>
     <td>🟢</td>
     <td>🟢</td>
@@ -216,7 +238,7 @@
   </tr>
   <tr>
   	<td>Миттєва синхронізація<br>(JIT-synchronization)</td>
-    <td></td>
+    <td>🟡</td>
     <td>🟢</td>
     <td>🟢</td>
     <td>🟢</td>
@@ -227,7 +249,7 @@
   <tr>
     <td>Підтримка<br>(Support)</td>
     <td>Своєчасне оновлення<br>(Timely update)</td>
-    <td></td>
+    <td>🟡</td>
     <td>🟢</td>
     <td>🟢</td>
     <td>🟡</td>
@@ -244,15 +266,18 @@
 
 ### Основна:
 
-- Дошка/Список завдань
-- Календар
-- Створення команд
+- Способи відображення інформації:
+  - Дошка/Список завдань
+  - Календар
+  - Артефактами
+  - З точки зору розробників
+- Редагування команди
 - FAQ
 - Шифрування TLS
-- Резервне копіювання
+- Резервне копіювання/Відновлення
 
 ### Другорядна:
 
 - Командний чат
-- Миттєва синхронізація
+- Миттєва синхронізація стану проєкту
 - Інтеграція з GitHub
