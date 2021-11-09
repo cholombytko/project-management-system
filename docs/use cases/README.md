@@ -34,6 +34,13 @@ PrjCreate_EX_Cancel - Натиснута кнопка "Відміна".
 5. Система створює новий проєкт.
 6. Менеджер та команда отримують сповіщення про створення проєкту.
 
+<center style="
+    border-radius:4px;
+    border: 1px solid #cfd7e6;
+    box-shadow: 0 1px 3px 0 rgba(89,105,129,.05), 0 1px 1px 0 rgba(0,0,0,.025);
+    padding: 1em;"
+>
+
 @startuml
 
 |Користувач|
@@ -59,6 +66,8 @@ PrjCreate_EX_Cancel - Натиснута кнопка "Відміна".
     stop;
 
 @enduml
+
+</center>
 
 ---
 
