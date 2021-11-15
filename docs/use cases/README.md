@@ -4,7 +4,108 @@
 
 *Модель прецедентів повинна містити загальні оглядові діаграми та специфікації прецедентів.*
 
+## Дiаграма прецедентiв
 
+@startuml
+  actor Manager         
+  actor Developer
+  
+  usecase Manage1 as "<b>MAN_1</b>\nКерувати проєктом"
+  usecase Manage2 as "<b>MAN_2/b>\nКервувати даними проєкту"
+  usecase Manage3 as "<b>MAN_3</b>\nКерувати командами та учасниками"
+  usecase Manage4 as "<b>MAN_4</b>\nКерувати завданнями"
+
+  usecase Develope1 as "<b>DEV_1</b>\nКерування завданнями"
+
+  Manager -> Manage4
+  Manager -> Manage3
+  Manager -> Manage2
+  Manager -> Manage1
+  Manager -d-|> Developer
+ 
+  Developer -> Develope1
+  
+@enduml
+
+## Схеми використання для розробника
+
+@startuml
+
+actor Developer
+  
+  usecase Develope1 as "<b>DEV_1</b>\nКерувати завданнями" #FF8C00
+  
+  
+  usecase Develope1_1 as "<b>TaskCreate</b>\nСтворити завдання"
+  usecase Develope1_2 as "<b>TaskChange</b>\nЗмінити завдання"
+  usecase Develope1_3 as "<b>ТaskViewChange</b>\nЗмінити\n відображення завдання"
+  usecase Develope1_4 as "<b>ShowArtefacts</b>\nПоказати артефакти"
+  
+  
+  Developer -u-> Develope1
+
+
+  Develope1_1 .d.> Develope1: <<extends>> 
+  Develope1_2 .d.> Develope1: <<extends>> 
+  Develope1_3 .d.> Develope1: <<extends>> 
+  Develope1_4 .d.> Develope1: <<extends>> 
+  
+@enduml
+
+## Схеми використання для менеджера
+
+@startuml
+
+actor Manager
+  
+  usecase Manage1 as "<b>MAN_1</b>\nКерувати проєктом"
+  usecase Manage2 as "<b>MAN_2</b>\nКервувати даними проєкту"
+  usecase Manage3 as "<b>MAN_3</b>\nКерувати командами та учасниками"
+  usecase Manage4 as "<b>MAN_4</b>\nКерувати завданнями"
+  
+  usecase Manage1_1 as "<b>PrjCreate</b>\nCтворити проєкт"
+  usecase Manage1_2 as "<b>PrjDelete</b>\nВидалити проєкт"
+  
+  usecase Manage2_1 as "<b>PrjBackup</b>\nСтворити резервну копію проєку"
+  usecase Manage2_2 as "<b>PrjRestor</b>\nВідновити дані проєкту"
+  
+  usecase Manage3_1 as "<b>TeaMan_1.1</b>\nСтворити команду"
+  usecase Manage3_2 as "<b>TeaMan_1.2</b>\nВидалити команду"
+  usecase Manage3_3 as "<b>TeaMan_1.3</b>\nДодати учасника до команди"
+  usecase Manage3_4 as "<b>TeaMan_1.4</b>\nВидалити учасника"
+  usecase Manage3_5 as "<b>TeaMan_1.5</b>\nЗмінити статус учасника"
+
+  usecase Manage4_1 as "<b>TaskCreate</b>\nСтворити завдання"
+  usecase Manage4_2 as "<b>TaskChange</b>\nЗмінити завдання"
+  usecase Manage4_3 as "<b>TaskViewChange</b>\nЗмінити відображення завдання"
+  usecase Manage4_4 as "<b>ShowArtefacts</b>\nПоказати артефакти"
+
+
+  Manager -u-> Manage1
+  Manager -d-> Manage2
+  Manager -d-> Manage3
+  Manager -d-> Manage4
+  
+  Manage1_1 .d.> Manage1: <<extends>>
+  Manage1_2 .u.> Manage1: <<extends>>
+
+  Manage2_1 .u.> Manage2: <<extends>>
+  Manage2_2 .u.> Manage2: <<extends>>
+
+  Manage3_1 .d.> Manage3: <<extends>>
+  Manage3_2 .d.> Manage3: <<extends>>
+  Manage3_3 .d.> Manage3: <<extends>>
+  Manage3_4 .d.> Manage3: <<extends>>
+  Manage3_5 .d.> Manage3: <<extends>>
+
+  Manage4_1 .u.> Manage4: <<extends>>
+  Manage4_2 .u.> Manage4: <<extends>>
+  Manage4_3 .u.> Manage4: <<extends>>
+  Manage4_4 .u.> Manage4: <<extends>>
+ 
+
+  
+@enduml
 
 Вбудовування зображень діаграм здійснюється з використанням сервісу [plantuml.com](https://plantuml.com/). 
 
@@ -291,7 +392,8 @@ TeaMan_1.3_EX_Cancel - Натиснута кнопка "Відміна".
 
     |Користувач|
         start
-        :натискає на кнопку/іконку "Додати учасника до команди;
+        :натискає на кнопку/іконку 
+        "Додати учасника до команди";
     |Система|
         :відкриває форму додавання користувача;
         note right #ffaaaa
@@ -301,7 +403,8 @@ TeaMan_1.3_EX_Cancel - Натиснута кнопка "Відміна".
     |Користувач|
         :заповнює форму (юзернейм користувача);
     |Система|
-        :шукає в базах данних користувача та додає користувача до команди;
+        :шукає в базах данних користувача та
+         додає користувача до команди;
         note right #ffaaaa
         TeaMan_1.3_EX_NoUser не знаходить користувача 
         в базі та видає помилку про ненаход
