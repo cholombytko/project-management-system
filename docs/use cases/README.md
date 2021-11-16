@@ -52,25 +52,25 @@
     actor Manager
     
     usecase Manage1 as "<b>MAN_1</b>\nКерувати проєктом"
-    usecase Manage2 as "<b>MAN_2</b>\nКервувати даними проєкту"
-    usecase Manage3 as "<b>MAN_3</b>\nКерувати командами та учасниками"
+    usecase Manage2 as "<b>MAN_2</b>\nКервувати даними\n проєкту"
+    usecase Manage3 as "<b>MAN_3</b>\nКерувати командами\n та учасниками"
     usecase Manage4 as "<b>MAN_4</b>\nКерувати завданнями"
     
     usecase Manage1_1 as "<b>PrjCreate</b>\nCтворити проєкт"
     usecase Manage1_2 as "<b>PrjDelete</b>\nВидалити проєкт"
     
-    usecase Manage2_1 as "<b>PrjBackup</b>\nСтворити резервну копію проєку"
-    usecase Manage2_2 as "<b>PrjRestor</b>\nВідновити дані проєкту"
+    usecase Manage2_1 as "<b>PrjBackup</b>\nСтворити резервну\n копію проєку"
+    usecase Manage2_2 as "<b>PrjRestor</b>\nВідновити дані\n проєкту"
     
     usecase Manage3_1 as "<b>TeaMan_1.1</b>\nСтворити команду"
     usecase Manage3_2 as "<b>TeaMan_1.2</b>\nВидалити команду"
-    usecase Manage3_3 as "<b>TeaMan_1.3</b>\nДодати учасника до команди"
+    usecase Manage3_3 as "<b>TeaMan_1.3</b>\nДодати учасника\n до команди"
     usecase Manage3_4 as "<b>TeaMan_1.4</b>\nВидалити учасника"
-    usecase Manage3_5 as "<b>TeaMan_1.5</b>\nЗмінити статус учасника"
+    usecase Manage3_5 as "<b>TeaMan_1.5</b>\nЗмінити статус\n учасника"
 
     usecase Manage4_1 as "<b>TaskCreate</b>\nСтворити завдання"
     usecase Manage4_2 as "<b>TaskChange</b>\nЗмінити завдання"
-    usecase Manage4_3 as "<b>TaskViewChange</b>\nЗмінити відображення завдання"
+    usecase Manage4_3 as "<b>TaskViewChange</b>\nЗмінити відображення\n завдання"
     usecase Manage4_4 as "<b>ShowArtefacts</b>\nПоказати артефакти"
 
     Manager -u-> Manage1
