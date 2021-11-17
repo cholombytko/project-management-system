@@ -56,9 +56,9 @@
     Member "1, *" -- "1, 1" Team
     Member "0, *" -- "1, 1" User
     Artefact "0, *" -- "1, 1" Task
-    Grant "0, *" -- "1, *" Member
+    Grant "0, *" -- "1, 1" Member
     Grant "0, *" -- "1, 1" Task
-    Grant "0, *" -- "1, 1" Role
+    Grant "0, *" -- "0, 1" Role
     Grant "0, *" -- "1, 1" Action
     Action "1, *" -- "1, 1" Role
     State "1, 1" -- "0, *" Action
