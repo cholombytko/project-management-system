@@ -49,23 +49,23 @@ entity Artefact {
     link: text
 }
 
-entity MemberStatus {}
+entity Assignment {}
 
 entity Grant {}
 
-entity Tag {
-    name: text
+entity Association {
+    tag: text
 }
 
 
 Task "0, *" -- "1,1" Project
 Team "1, 1" -- "0, *" Project
 Member "0, *" -- "1, 1" Team
-Member "0, *" -- "0, 1" MemberStatus
-MemberStatus "1, 1" -- "0, *" Role
+Member "0, *" -- "0, 1" Assignment
+Assignment "1, 1" -- "0, *" Role
 Member "0, *" -- "1, 1" User
-Artefact "1, 1" -- "0, *" Tag
-Tag "0, *" -- "1, 1" Task
+Artefact "1, 1" -- "0, *" Association
+Association "0, *" -- "1, 1" Task
 Grant "0, *" -- "1, 1" Member
 Grant "1, *" -- "0, 1" Task
 Grant "1, *" -- "0, 1" Role
