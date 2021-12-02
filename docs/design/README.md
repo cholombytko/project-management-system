@@ -53,7 +53,7 @@
 
     Task "0, *" -- "1,1" Project
     Team "1, 1" -- "0, *" Project
-    Member "1, *" -- "1, 1" Team
+    Member "0, *" -- "1, 1" Team
     Member "0, *" -- "1, 1" User
     Artefact "0, *" -- "1, 1" Task
     Grant "0, *" -- "1, 1" Member
