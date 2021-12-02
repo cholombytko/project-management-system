@@ -6,61 +6,75 @@
 
 @startuml
 
-    entity Project {
-        name: text
-        team: Team
-    }
+entity Project {
+    name: text
+    team: Team
+}
 
-    entity Task {
-        name: text
-        deadline: date
-        responsible: Member
-        status: text
-    }
+entity Task {
+    name: text
+    deadline: date
+    responsible: Member
+}
 
-    entity Team {
-        name: text
-        icon: imageFile
-    }
+entity Team {
+    name: text
+    icon: imageFile
+}
 
-    entity User {
-        name: text
-        password: text
-    }
-    
-    entity Member {
-        name: text
-    }
+entity User {
+    name: text
+    password: text
+}
 
-    entity Role {
-        name: text
-    }
+entity Member {
+    name: text
+}
 
-    entity Action {
-        name: text
-        date: date
-        type: text
-    }
+entity Role {
+    name: text
+}
 
-    entity Artefact {
-        name: text
-        link: text
-    }
-    
-    entity Grant {}
-    
-    entity State {}
+entity ActionLog {
+    actedAt: date
+    state: text
+}
 
-    Task "0, *" -- "1,1" Project
-    Team "1, 1" -- "0, *" Project
-    Member "1, *" -- "1, 1" Team
-    Member "0, *" -- "1, 1" User
-    Artefact "0, *" -- "1, 1" Task
-    Grant "0, *" -- "1, 1" Member
-    Grant "1, *" -- "0, 1" Task
-    Grant "1, *" -- "0, 1" Role
-    Grant "1, *" -- "1, 1" Action
-    State "1, 1" -- "0, *" Action
+entity ActionType {
+    name: text
+}
+
+entity Artefact {
+    name: text
+    link: text
+}
+
+entity MemberStatus {}
+
+entity Grant {}
+
+entity Tag {
+    name: text
+}
+
+
+Task "0, *" -- "1,1" Project
+Team "1, 1" -- "0, *" Project
+Member "0, *" -- "1, 1" Team
+Member "0, *" -- "0, 1" MemberStatus
+MemberStatus "1, 1" -- "0, *" Role
+Member "0, *" -- "1, 1" User
+Artefact "1, 1" -- "0, *" Tag
+Tag "0, *" -- "1, 1" Task
+Grant "0, *" -- "1, 1" Member
+Grant "1, *" -- "0, 1" Task
+Grant "1, *" -- "0, 1" Role
+Grant "1, *" --> "1, 1" ActionType
+Grant "0, *" -- "0, 1" Artefact
+ActionLog --> "1, 1" Grant
+ActionLog --> "0, 1" Artefact
+ActionLog --> "0, 1" Task
+
 
 @enduml
 
