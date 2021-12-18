@@ -3,7 +3,7 @@ const app = require('./api/app');
 const routes = require('./routes');
 
 for (const route of routes) {
-    server[route.method](route.path, route.func);
+    app[route.method](route.path, route.func);
 }
 
 (async () => {

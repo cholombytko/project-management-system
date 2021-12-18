@@ -13,24 +13,24 @@ const _team = require("./team");
 const _user = require("./user");
 
 function initModels(sequelize) {
-  const actionlog = _action(sequelize, DataTypes);
-  const actiontype = _actiontype(sequelize, DataTypes);
-  const artefact = _artefact(sequelize, DataTypes);
-  const assignment = _assignment(sequelize, DataTypes);
-  const association = _association(sequelize, DataTypes);
-  const grant = _grant(sequelize, DataTypes);
-  const member = _member(sequelize, DataTypes);
-  const project = _project(sequelize, DataTypes);
-  const role = _role(sequelize, DataTypes);
-  const task = _task(sequelize, DataTypes);
-  const team = _team(sequelize, DataTypes);
-  const user = _user(sequelize, DataTypes);
+  const actionlog = _actionlog(sequelize, _DataTypes);
+  const actiontype = _actiontype(sequelize, _DataTypes);
+  const artefact = _artefact(sequelize, _DataTypes);
+  const assignment = _assignment(sequelize, _DataTypes);
+  const association = _association(sequelize, _DataTypes);
+  const grant = _grant(sequelize, _DataTypes);
+  const member = _member(sequelize, _DataTypes);
+  const project = _project(sequelize, _DataTypes);
+  const role = _role(sequelize, _DataTypes);
+  const task = _task(sequelize, _DataTypes);
+  const team = _team(sequelize, _DataTypes);
+  const user = _user(sequelize, _DataTypes);
 
 
   // user relations
   user.hasMany(member, {
-    as: "members",
-    foreignKey: "user"
+    as: "users",
+    foreignKey: "member"
   })
 
   // member relations
@@ -44,48 +44,48 @@ function initModels(sequelize) {
     foreignKey: "team"
   })
   member.hasMany(assignment, {
-    as: "assignments",
-    foreignKey: "member"
+    as: "assignment_members",
+    foreignKey: "assignment"
   })
   member.hasMany(grant, {
-    as: "grants",
-    foreignKey: "member"
+    as: "grant_members",
+    foreignKey: "grant"
   })
 
   // team relations
 
   team.hasMany(member, {
-    as: "members",
-    foreignKey: "team"
+    as: "teams",
+    foreignKey: "member"
   })
   team.hasMany(project, {
-    as: "projects",
-    foreignKey: "team"
+    as: "project_teams",
+    foreignKey: "project"
   })
 
   // project relations
 
   project.belongsTo(team, {
-    as: "projects",
+    as: "team_projects",
     foreignKey: "team"
   })
   project.hasMany(task, {
-    as: "tasks",
-    foreignKey: "project"
+    as: "unique_project",
+    foreignKey: "task"
   })
 
   // task relations
 
   task.belongsTo(project, {
-    as: "tasks",
+    as: "project_tasks",
     foreignKey: "project"
   })
   task.hasMany(grant, {
-    as: "tasks",
+    as: "grant_tasks",
     foreignKey: "grant"
   })
   task.hasMany(association, {
-    as: "tasks",
+    as: "association_tasks",
     foreignKey: "association"
   })
 
@@ -103,11 +103,11 @@ function initModels(sequelize) {
   // artefact relations
 
   artefact.hasMany(association, {
-    as: "artefacts",
+    as: "association_artefacts",
     foreignKey: "association"
   })
-  artefact.hasMany(grant: {
-    as: "artefacts",
+  artefact.hasMany(grant, {
+    as: "grant_artefacts",
     foreignKey: "grant"
   })
 
@@ -125,7 +125,7 @@ function initModels(sequelize) {
     as: "actiontype_grant",
     foreignKey: "actiontype"
   })
-  grant.belongsTo(actionlog, {
+  grant.hasMany(actionlog, {
     as: "grants",
     foreignKey: "actionlog"
   })
@@ -155,11 +155,11 @@ function initModels(sequelize) {
   // role relations
 
   role.hasMany(grant, {
-    as: "roles",
+    as: "grant_roles",
     foreignKey: "grant"
   })
   role.hasMany(assignment, {
-    as: "roles",
+    as: "assignment_roles",
     foreignKey: "assignment"
   })
 

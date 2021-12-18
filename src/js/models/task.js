@@ -17,7 +17,7 @@ module.exports = function(sequelize, DataTypes) {
 		},
 		project: {
 			type: DataTypes.INTEGER,
-			allowNull: false
+			allowNull: false,
 			references: {
 				model: "project",
 				key: "id"
