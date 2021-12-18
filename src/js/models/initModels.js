@@ -154,22 +154,22 @@ function initModels(sequelize) {
 
   // role relations
 
-  role.hasMany(grant: {
+  role.hasMany(grant, {
     as: "roles",
     foreignKey: "grant"
   })
-  role.hasMany(assignment: {
+  role.hasMany(assignment, {
     as: "roles",
     foreignKey: "assignment"
   })
 
   // assignment relations
 
-  assignment.belongsTo(role: {
+  assignment.belongsTo(role, {
     as: "role_assignment",
     foreignKey: "role"
   })
-  assignment.belongsTo(member: {
+  assignment.belongsTo(member, {
     as: "member_assignment",
     foreignKey: "member"
   })
