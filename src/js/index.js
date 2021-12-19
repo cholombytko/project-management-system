@@ -7,11 +7,15 @@ for (const route of routes) {
 }
 
 (async () => {
-  await sequelize.sync({ force: false });
+  try {
+        await sequelize.sync();
+    
+        const PORT = 8080;
 
-  const PORT = 8080;
-
-  app.listen(PORT, () => {
-    console.log(`Server listening at port ${PORT}`);
-  });
+        app.listen(PORT, () => {
+          console.log(`Server is running on port ${PORT}`);
+        });
+      } catch (e) {
+        throw e;
+      }
 })();
