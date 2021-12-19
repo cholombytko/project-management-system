@@ -1,21 +1,16 @@
-const { sequelize } = require('./api/modObj');
-const app = require('./api/app');
-const routes = require('./routes');
-
-for (const route of routes) {
-    app[route.method](route.path, route.func);
-}
-
-(async () => {
-  try {
-        await sequelize.sync();
+const db = require('./lib/db');
+const server = require('./server.js');
+  
+  (async () => {
+      try {
+        await db.sync();
     
         const PORT = 8080;
 
-        app.listen(PORT, () => {
+        server.listen(PORT, () => {
           console.log(`Server is running on port ${PORT}`);
         });
       } catch (e) {
         throw e;
       }
-})();
+  })();
