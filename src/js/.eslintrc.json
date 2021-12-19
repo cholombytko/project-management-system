@@ -1,0 +1,23 @@
+{
+    "parserOptions": {
+        "ecmaVersion": 8,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true,
+            "experimentalObjectRestSpread": true
+        }
+    },
+    "rules": {
+        "semi": 2,
+        "no-unused-vars": ["error", { "vars": "all", "args": "after-used" }],
+        "no-undefined": "error",
+        "no-undef": "error",
+        "eqeqeq": "error",
+        "no-var": "error"
+    },
+    "env" : {
+        "es6": true,
+        "node": true,
+        "browser": true
+    }
+}
