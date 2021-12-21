@@ -1,9 +1,9 @@
 const express = require('express');
 const app = express();
 
-const memberRouter = require('./routes/member.js');
+const teamRouter = require('./routes/team.js');
 
 app.use(express.json());
-app.use('/member', memberRouter);
+app.use('/team', teamRouter);
 
 module.exports = app;
