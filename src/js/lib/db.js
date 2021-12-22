@@ -4,7 +4,7 @@ const { Sequelize } = require('sequelize');
 const options = {
   database: 'mydb',
   username: 'root',
-  password: 'feniks2003',
+  password: '',
   dialect: 'mysql',
   define: {
     timestamps: false,

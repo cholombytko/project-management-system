@@ -1,4 +1,4 @@
-DROP SCHEMA `mydb`;
+DROP SCHEMA IF EXISTS `mydb`;
 -- MySQL Workbench Forward Engineering
 
 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0;
@@ -77,8 +77,8 @@ ENGINE = InnoDB;
 CREATE TABLE IF NOT EXISTS `mydb`.`member` (
   `id` INT NOT NULL AUTO_INCREMENT,
   `name` VARCHAR(45) NULL,
-  `team_id` INT NOT NULL,
-  `user_id` INT NOT NULL,
+  `team` INT NOT NULL,
+  `user` INT NOT NULL,
   PRIMARY KEY (`id`),
   INDEX `fk_member_team_idx` (`team_id` ASC) VISIBLE,
   INDEX `fk_member_user_idx` (`user_id` ASC) VISIBLE,
@@ -245,22 +245,17 @@ START TRANSACTION;
 USE `mydb`;
 INSERT INTO `mydb`.`team` (`name`) VALUES ('Pogromisti');
 
-COMMIT;
-
 -- -----------------------------------------------------
 -- Data for table `mydb`.`project`
 -- -----------------------------------------------------
-START TRANSACTION;
-USE `mydb`;
+
 INSERT INTO `mydb`.`project` (`name`, `team`) VALUES ('Cringello', 1);
 
-COMMIT;
 -- -----------------------------------------------------
 -- Data for table `mydb`.`task`
 -- -----------------------------------------------------
-START TRANSACTION;
-USE `mydb`;
-INSERT INTO `mydb`.`task` (`name`, `project`) VALUES ('insert some data in db', 1);
-INSERT INTO `mydb`.`task` (`name`, `project`) VALUES ('create js controllers', 1);
+
+INSERT INTO `mydb`.`task` (`name`, `deadline`, `project`) VALUES ('insert some data in db', '2022-00-00 00:00:00', 1);
+INSERT INTO `mydb`.`task` (`name`, `deadline`, `project`) VALUES ('create js controllers', '2022-00-00 00:00:00', 1);
 
 COMMIT;
