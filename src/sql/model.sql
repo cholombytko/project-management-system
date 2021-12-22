@@ -1,4 +1,4 @@
-DROP SCHEMA `mydb`;
+DROP SCHEMA if exists `mydb`;
 -- MySQL Workbench Forward Engineering
 
 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0;

@@ -2,9 +2,9 @@ const dotenv = require('dotenv').config();
 const { Sequelize } = require('sequelize');
 
 const options = {
-  database: process.env.MYSQL_DB,
-  username: process.env.MYSQL_USER,
-  password: process.env.MYSQL_PASS,
+  database: 'mydb',
+  username: 'root',
+  password: '',
   dialect: 'mysql',
   define: {
     timestamps: false,
