@@ -5,7 +5,7 @@ const artefact = require("../models/artefact");
 const assignment = require("../models/assignment");
 const association = require("../models/association");
 const grant = require("../models/grant");
-const member = require("../models/member")
+const user = require("../models/user")
 const project = require("../models/project");
 const role = require("../models/role");
 const task = require("../models/task");
@@ -15,35 +15,35 @@ const user = require("../models/user");
 const associate = () => {
 
   // user relations
-  user.hasMany(member, {
+  user.hasMany(user, {
     as: "users",
-    foreignKey: "member"
+    foreignKey: "user"
   })
 
-  // member relations
+  // user relations
 
-  member.belongsTo(user, {
-    as: "member_member",
+  user.belongsTo(user, {
+    as: "user_user",
     foreignKey: "user_id"
   })
-  member.belongsTo(team, {
-    as: "team_member",
+  user.belongsTo(team, {
+    as: "team_user",
     foreignKey: "team_id"
   })
-  member.hasMany(assignment, {
-    as: "assignment_members",
+  user.hasMany(assignment, {
+    as: "assignment_users",
     foreignKey: "assignment"
   })
-  member.hasMany(grant, {
-    as: "grant_members",
+  user.hasMany(grant, {
+    as: "grant_users",
     foreignKey: "grant"
   })
 
   // team relations
 
-  team.hasMany(member, {
+  team.hasMany(user, {
     as: "teams",
-    foreignKey: "member"
+    foreignKey: "user"
   })
   team.hasMany(project, {
     as: "project_teams",
@@ -104,9 +104,9 @@ const associate = () => {
     as: "artefact_grant",
     foreignKey: "artefact"
   })
-  grant.belongsTo(member, {
-    as: "member_grant",
-    foreignKey: "member"
+  grant.belongsTo(user, {
+    as: "user_grant",
+    foreignKey: "user"
   })
   grant.belongsTo(actiontype, {
     as: "actiontype_grant",
@@ -156,9 +156,9 @@ const associate = () => {
     as: "role_assignment",
     foreignKey: "role"
   })
-  assignment.belongsTo(member, {
-    as: "member_assignment",
-    foreignKey: "member"
+  assignment.belongsTo(user, {
+    as: "user_assignment",
+    foreignKey: "user"
   })
 }
 
