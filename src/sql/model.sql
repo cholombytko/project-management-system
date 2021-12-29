@@ -243,25 +243,7 @@ SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
 -- -----------------------------------------------------
 START TRANSACTION;
 USE `mydb`;
-INSERT INTO `mydb`.`team` (`id`, `name`) VALUES (1, 'First');
-INSERT INTO `mydb`.`team` (`id`, `name`) VALUES (2, 'Second');
-
-COMMIT;
-
--- -----------------------------------------------------
--- Data for table `mydb`.`team`
--- -----------------------------------------------------
-START TRANSACTION;
-USE `mydb`;
-INSERT INTO `mydb`.`user` (`id`, `name`) VALUES (1, 'Vasya');
-INSERT INTO `mydb`.`user` (`id`, `name`) VALUES (2, 'Dima');
-
-COMMIT;
--- -----------------------------------------------------
--- Data for table mydb.QuestionFeedback
--- -----------------------------------------------------
-START TRANSACTION;
-USE `mydb`;
-INSERT INTO `mydb`.`member` (`name`, `team_id`, `user_id`) VALUES ('cringe', 1, 1);
+INSERT INTO `mydb`.`user` (`id`, `name`, `password`) VALUES (1, 'misha', `randomcode`);
+INSERT INTO `mydb`.`user` (`id`, `name`, `password`) VALUES (2, 'callilope', `leon`);
 
 COMMIT;
