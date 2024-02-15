@@ -1,3 +1,4 @@
+DROP SCHEMA `mydb`;
 -- MySQL Workbench Forward Engineering
 
 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0;
@@ -76,18 +77,18 @@ ENGINE = InnoDB;
 CREATE TABLE IF NOT EXISTS `mydb`.`member` (
   `id` INT NOT NULL AUTO_INCREMENT,
   `name` VARCHAR(45) NULL,
-  `team` INT NOT NULL,
-  `user` INT NOT NULL,
+  `team_id` INT NOT NULL,
+  `user_id` INT NOT NULL,
   PRIMARY KEY (`id`),
-  INDEX `fk_member_team_idx` (`team` ASC) VISIBLE,
-  INDEX `fk_member_user_idx` (`user` ASC) VISIBLE,
+  INDEX `fk_member_team_idx` (`team_id` ASC) VISIBLE,
+  INDEX `fk_member_user_idx` (`user_id` ASC) VISIBLE,
   CONSTRAINT `fk_member_team`
-    FOREIGN KEY (`team`)
+    FOREIGN KEY (`team_id`)
     REFERENCES `mydb`.`team` (`id`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION,
   CONSTRAINT `fk_member_user`
-    FOREIGN KEY (`user`)
+    FOREIGN KEY (`user_id`)
     REFERENCES `mydb`.`user` (`id`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
@@ -236,3 +237,31 @@ ENGINE = InnoDB;
 SET SQL_MODE=@OLD_SQL_MODE;
 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
+
+-- -----------------------------------------------------
+-- Data for table `mydb`.`team`
+-- -----------------------------------------------------
+START TRANSACTION;
+USE `mydb`;
+INSERT INTO `mydb`.`team` (`id`, `name`) VALUES (1, 'First');
+INSERT INTO `mydb`.`team` (`id`, `name`) VALUES (2, 'Second');
+
+COMMIT;
+
+-- -----------------------------------------------------
+-- Data for table `mydb`.`team`
+-- -----------------------------------------------------
+START TRANSACTION;
+USE `mydb`;
+INSERT INTO `mydb`.`user` (`id`, `name`) VALUES (1, 'Vasya');
+INSERT INTO `mydb`.`user` (`id`, `name`) VALUES (2, 'Dima');
+
+COMMIT;
+-- -----------------------------------------------------
+-- Data for table mydb.QuestionFeedback
+-- -----------------------------------------------------
+START TRANSACTION;
+USE `mydb`;
+INSERT INTO `mydb`.`member` (`name`, `team_id`, `user_id`) VALUES ('cringe', 1, 1);
+
+COMMIT;
